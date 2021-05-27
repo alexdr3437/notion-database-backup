@@ -1,0 +1,6 @@
+curl -v -X POST 'https://api.notion.com/v1/databases/7c662f74975c43279416b0fc17eb0bca/query' \
+  -H 'Authorization: Bearer '"secret_erKXuLKqnAPHFbS6kx9TB5XqV6SHm2h53O7GkwZyuBa"'' \
+  -H 'Notion-Version: 2021-05-13' \
+  -H "Content-Type: application/json" \
+	--data '{
+	}' | python3 -m json.tool
